@@ -50,18 +50,6 @@ describe('Teste o componente <Pokedex.js />', () => {
     />);
     const testId = 'pokemon-type-button';
 
-    // expect(btnFire).toBeInTheDocument();
-    // expect(btnBug).toBeInTheDocument();
-    // expect(btnPoison).toBeInTheDocument();
-    // expect(btnPsychic).toBeInTheDocument();
-    // expect(btnNormal).toBeInTheDocument();
-    // expect(btnDragon).toBeInTheDocument();
-    // const btnFire = screen.getByTestId(testId, { name: 'Fire' });
-    // const btnBug = screen.getByTestId(testId, { name: 'Bug' });
-    // const btnPoison = screen.getByTestId(testId, { name: 'Poison' });
-    // const btnPsychic = screen.getByTestId(testId, { name: 'Psychic' });
-    // const btnNormal = screen.getByTestId(testId, { name: 'Normal' });
-    // const btnDragon = screen.getByTestId(testId, { name: 'Dragon' });
     const btnsType = screen.getAllByTestId(testId, { name: /eletric/i });
     screen.logTestingPlaygroundURL();
 
